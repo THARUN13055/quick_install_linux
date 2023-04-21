@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # java installation
+# jenkins will support only java 11 packages
 
 _java="$JAVA_HOME/bin/java"
 if [[ "$_java" ]]; then
     version=$("$_java" -version 2>&1 | awk -F '"' '/version/ {print $2}')
     if [[ "$version" == 11.* ]]; then
-        echo "Java version 8 is installed"
+        echo "Java version 11 is installed"
     else
         sudo apt update -y
         sudo apt install openjdk-11-jdk -y
