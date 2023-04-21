@@ -25,9 +25,9 @@ response = requests.get(api_endpoint)
 content = response.json()['content']
 
 # Decode the content from base64 and write it to a file
-with open(''+a, 'wb') as f:
+with open(''+file_name, 'wb') as f:
     f.write(base64.b64decode(content))
 
-script = './'+a
+script = './'+file_name
 subprocess.run(['bash',script])
 
