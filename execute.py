@@ -13,7 +13,7 @@ print(script)
 a = str(input("Enter the needed script list here:  "))
 
 # Set up the GitHub API endpoint
-git_file_add = 'https://api.github.com/repos/THARUN13055/quick_install_linux/contents/'
+git_file_add = 'https://api.github.com/repos/THARUN13055/quick_install_linux/contents/installation_script/'
 
 # Here we get the input and add the str to b
 api_endpoint = git_file_add+a
