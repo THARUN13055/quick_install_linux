@@ -27,9 +27,11 @@ sudo useradd -M -d /opt/nexus -s /bin/bash -r nexus
 
 sudo mkdir /opt/nexus
 
-wget https://sonatype-download.global.ssl.fastly.net/repository/downloads-prod-group/3/nexus-3.29.2-02-unix.tar.gz
+# wget https://sonatype-download.global.ssl.fastly.net/repository/downloads-prod-group/3/nexus-3.29.2-02-unix.tar.gz
 
-sudo tar xzf nexus-3.29.2-02-unix.tar.gz -C /opt/nexus --strip-components=1
+sudo wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
+
+sudo tar -zxvf latest-unix.tar.gz -C /opt/nexus --strip-components=1
 
 sudo chown -R nexus:nexus /opt/nexus
 
