@@ -49,7 +49,7 @@ sudo systemctl start nexus
 
 sudo systemctl enable nexus
 
-echo "==============================================================================="
+echo "====================================PASSWORD====================================="
 echo ""
 echo ""
 echo ""
@@ -57,4 +57,15 @@ sudo cat /opt/nexus/sonatype-work/nexus3/admin.password
 echo ""
 echo ""
 echo ""
-echo "==============================================================================="
+echo "====================================END========================================"
+echo ""
+echo ""
+echo "==============================IF ERROR OCCURS=================================="
+echo ""
+echo ""
+echo "if password will not occurs Don't run this file again copy and past this cat command "
+echo ""
+echo "cat /opt/nexus/sonatype-work/nexus3/admin.password"
+echo ""
+echo ""
+echo "=====================================END====================================="
