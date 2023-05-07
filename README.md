@@ -13,7 +13,9 @@
 - the code use **gitAPI** for this project
 - It will get request from the user which need to install
 
-> python3 pacman.py install <listed>
+```bash
+python3 pacman.py install <listed>
+```
 
 - And It will automatically install the seleted file
 
@@ -28,15 +30,20 @@
 
 - First execute **wget** command (copy and past)
 
-> wget https://raw.githubusercontent.com/THARUN13055/quick_install_linux/main/pacman.py
-
+```bash
+ wget https://raw.githubusercontent.com/THARUN13055/quick_install_linux/main/pacman.py
+```
 - And then what are file you need list it
 
-> python3 pacman.py list
+```bash
+python3 pacman.py list
+```
 
 - And then selected the listed file and give the name in code (ex: docker)
 
-> python3 pacman.py install docker
+```
+python3 pacman.py install docker
+```
 
 ---
 ---
