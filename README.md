@@ -1,6 +1,11 @@
 # EASY ISTALLATION PROJECT
 
 ---
+# Warning
+
+## Its works only in Linux deb and ubuntu
+
+---
 
 ## Used Laungage
 
