@@ -14,6 +14,7 @@ script = '''
 6. java_install.sh
 7. maven_install.sh
 8. trivy_install.sh
+9. terraform_install.sh
 '''
 packages = {
 	    "jenkins": "jenkins_install.sh",
@@ -24,6 +25,7 @@ packages = {
 	    "java": "java_install.sh",
 		"maven": "maven_install.sh",
 		"trivy": "trivy_install.sh",
+		"terraform": "terraform_install.sh",
 	   }
 
 arguments = sys.argv
