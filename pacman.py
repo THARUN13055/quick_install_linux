@@ -11,13 +11,19 @@ script = '''
 3. ansible_install.sh
 4. sonar_using_docker.sh
 5. nexus_install.sh
+6. java_install.sh
+7. maven_install.sh
+8. trivy_install.sh
 '''
 packages = {
 	    "jenkins": "jenkins_install.sh",
 	    "docker": "docker_install.sh",
 	    "ansible": "ansible_install.sh",
 	    "sonar_docker": "sonar_using_docker.sh",
-	    "nexus": "nexus_install.sh"
+	    "nexus": "nexus_install.sh",
+	    "java": "java_install.sh",
+		"maven": "maven_install.sh",
+		"trivy": "trivy_install.sh",
 	   }
 
 arguments = sys.argv
