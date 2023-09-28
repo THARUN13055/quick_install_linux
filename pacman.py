@@ -15,6 +15,8 @@ script = '''
 7. maven_install.sh
 8. trivy_install.sh
 9. terraform_install.sh
+10. argocd.sh
+11. nexus_using_docker.sh
 '''
 packages = {
 	    "jenkins": "jenkins_install.sh",
@@ -26,6 +28,8 @@ packages = {
 		"maven": "maven_install.sh",
 		"trivy": "trivy_install.sh",
 		"terraform": "terraform_install.sh",
+		"argocd": "argocd.sh",
+		"nexus_docker": "nexus_using_docker.sh",
 	   }
 
 arguments = sys.argv
