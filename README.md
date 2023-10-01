@@ -7,6 +7,28 @@
 
 ---
 
+## How to Download the file
+
+- First execute **wget** command (copy and past)
+
+```bash
+ wget https://raw.githubusercontent.com/THARUN13055/quick_install_linux/main/pacman.py
+```
+- And then what are file you need list it
+
+```bash
+python3 pacman.py list
+```
+
+- And then selected the listed file and give the name in code (ex: docker)
+
+```
+python3 pacman.py install docker
+```
+
+---
+---
+
 ## Used Laungage
 
 - Python
@@ -30,26 +52,4 @@ python3 pacman.py install <listed>
 2. It will save the Time Consume for searching the proper Installation command
 3. If the software need any Dependency That also It will intall
 4. Highly Checked
-
-## How to Download the file
-
-- First execute **wget** command (copy and past)
-
-```bash
- wget https://raw.githubusercontent.com/THARUN13055/quick_install_linux/main/pacman.py
-```
-- And then what are file you need list it
-
-```bash
-python3 pacman.py list
-```
-
-- And then selected the listed file and give the name in code (ex: docker)
-
-```
-python3 pacman.py install docker
-```
-
----
----
 
